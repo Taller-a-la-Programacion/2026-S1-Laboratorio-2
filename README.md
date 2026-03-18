@@ -13,9 +13,9 @@
 - El parámetro **num** y **grupo** deben ser entero
 - El largo o total de dígitos de **num** debe ser menor o igual al número del parámetro **grupo**
 - Por ejemplo : 
-  -  num = 256145, el resultado a retornar es 3, porque hay 3 grupos de 2 dígitos,  25, 61 y 45
-  -  num = -245, el resultado a retornar es 1, porque hay 1 grupo de 3 dígitos,  solo -245
-  -  num = 15, el resultado a retornar es 0, porque NO hay de 3 dígitos,  solo dos dígitos
+  -  num = 256145 grupo=2, el resultado a retornar es 3, porque hay 3 grupos de 2 dígitos,  25, 61 y 45
+  -  num = -245 grupo = 3, el resultado a retornar es 1, porque hay 1 grupo de 3 dígitos,  solo -245
+  -  num = 15 y grupo = 1, el resultado a retornar es 2, porque hay de 2 dígitos agrupados en un dígito
 
 ```python
 >>>contarGruposDeDigitos(256145, 2)     
