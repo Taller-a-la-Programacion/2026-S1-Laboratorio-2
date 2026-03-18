@@ -28,7 +28,7 @@ def test_lab_7():
     assert Laboratorio02.numeroCapicua(1801)  == False
     
 def test_lab_8():
-    assert Laboratorio02.numeroCapicua(101)  == True
+    assert Laboratorio02.numeroCapicua(8)  == True
     
 def test_lab_9():
     assert isinstance(Laboratorio02.numeroCapicua('abc') , str)  == isinstance("Error: Solo es permitido número de tipo entero", str)
