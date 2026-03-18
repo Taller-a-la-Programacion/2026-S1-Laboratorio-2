@@ -22,8 +22,8 @@
 3
 >>>contarGruposDeDigitos(-245, 3)     
 1
->>>contarGruposDeDigitos(15, 3)     
-0
+>>>contarGruposDeDigitos(15, 1)     
+2
 >>>contarGruposDeDigitos('abc', 2)     
 'Error: Solo es permitido número de tipo entero'
 
