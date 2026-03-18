@@ -24,10 +24,10 @@
 1
 >>>contarGruposDeDigitos(15, 3)     
 0
->>>contarTriosDeDigitos('abc', 2)     
+>>>contarGruposDeDigitos('abc', 2)     
 'Error: Solo es permitido número de tipo entero'
 
->>>contarTriosDeDigitos(2589, 5)     
+>>>contarGruposDeDigitos(2589, 5)     
 'Error: No hay grupo de 5 digitos, excede la cantidad de dígitos'
 
 ```
